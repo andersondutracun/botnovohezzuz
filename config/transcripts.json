@@ -1,0 +1,55 @@
+{
+  "general": {
+    "enabled": true,
+
+    "enableChannel": true,
+    "enableCreatorDM": true,
+    "enableParticipantDM": true,
+    "enableActiveAdminDM": true,
+    "enableEveryAdminDM": true,
+
+    "channel": "1489958236831613050",
+    "mode": "html"
+  },
+  "embedSettings": {
+    "customColor": "#f8ab00",
+    "listAllParticipants": true,
+    "includeTicketStats": true
+  },
+  "textTranscriptStyle": {
+    "layout": "detailed",
+    "includeStats": true,
+    "includeIds": false,
+    "includeEmbeds": true,
+    "includeFiles": true,
+    "includeBotMessages": true,
+
+    "fileMode": "user-name",
+    "customFileName": "transcript"
+  },
+  "htmlTranscriptStyle": {
+    "background": {
+      "enableCustomBackground": true,
+      "backgroundColor": "#f8ba00",
+      "backgroundImage": "https://cdn.discordapp.com/attachments/1390508847260631111/1489954461563486298/image.png?ex=69d24bb9&is=69d0fa39&hm=8c270eae05dfe97824d88aa980657c851722906ba48dd9e148122aee2e7372e4&"
+    },
+    "header": {
+      "enableCustomHeader": true,
+      "backgroundColor": "#202225",
+      "decoColor": "#f8ba00",
+      "textColor": "#ffffff"
+    },
+    "stats": {
+      "enableCustomStats": true,
+      "backgroundColor": "#202225",
+      "keyTextColor": "#737373",
+      "valueTextColor": "#ffffff",
+      "hideBackgroundColor": "#40444a",
+      "hideTextColor": "#ffffff"
+    },
+    "favicon": {
+      "enableCustomFavicon": true,
+      "imageUrl": "https://cdn.discordapp.com/attachments/1390508847260631111/1489954461563486298/image.png?ex=69d24bb9&is=69d0fa39&hm=8c270eae05dfe97824d88aa980657c851722906ba48dd9e148122aee2e7372e4&"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+A pasta config/ original do Open Ticket deve ser preservada. Este patch NÃO substitui suas configurações de tickets.

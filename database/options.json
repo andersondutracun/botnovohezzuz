@@ -1,0 +1,51 @@
+[
+    {
+        "category":"opendiscord:used-option",
+        "key":"duvida",
+        "value":{
+            "id":"duvida",
+            "type":"opendiscord:ticket",
+            "version":"v4.1.3",
+            "data":[
+                {"id":"opendiscord:name","value":"Duvidas"},
+                {"id":"opendiscord:description","value":"Crie um ticket para sanar uma duvida."},
+                {"id":"opendiscord:button-emoji","value":"🎫"},
+                {"id":"opendiscord:button-label","value":"Duvidas"},
+                {"id":"opendiscord:button-color","value":"green"},
+                {"id":"opendiscord:admins","value":["1489950595778482326"]},
+                {"id":"opendiscord:admins-readonly","value":["1489950595778482326"]},
+                {"id":"opendiscord:allow-blacklisted-users","value":false},
+                {"id":"opendiscord:questions","value":["duvida-1","duvida-2"]},
+                {"id":"opendiscord:channel-prefix","value":"Duvida-"},
+                {"id":"opendiscord:channel-suffix","value":"user-name"},
+                {"id":"opendiscord:channel-category","value":"1461701100099862558"},
+                {"id":"opendiscord:channel-category-closed","value":"1461701100099862558"},
+                {"id":"opendiscord:channel-category-backup","value":"1461701100099862558"},
+                {"id":"opendiscord:channel-categories-claimed","value":[{"user":"1489950595778482326","category":"1461701100099862558"}]},
+                {"id":"opendiscord:channel-topic","value":"Esse é o topico desse ticket e é visivel para todos"},
+                {"id":"opendiscord:dm-message-enabled","value":true},
+                {"id":"opendiscord:dm-message-text","value":"Obrigado por criar um ticket, aguarde o atendimento!"},
+                {"id":"opendiscord:dm-message-embed","value":{"enabled":true,"title":"Hezzuz.com","description":"Ticket aberto para falar sobre duvidas!","customColor":"#f8ab00","image":"https://cdn.discordapp.com/attachments/1390508847260631111/1489954461563486298/image.png?ex=69d24bb9&is=69d0fa39&hm=8c270eae05dfe97824d88aa980657c851722906ba48dd9e148122aee2e7372e4&","thumbnail":"https://cdn.discordapp.com/attachments/1390508847260631111/1489954461563486298/image.png?ex=69d24bb9&is=69d0fa39&hm=8c270eae05dfe97824d88aa980657c851722906ba48dd9e148122aee2e7372e4&","fields":[{"name":"field name","value":"field value","inline":false}],"timestamp":false}},
+                {"id":"opendiscord:ticket-message-enabled","value":true},
+                {"id":"opendiscord:ticket-message-text","value":""},
+                {"id":"opendiscord:ticket-message-embed","value":{"enabled":true,"title":"Duvida","description":"Seja bem vindo ao seu ticket.\nEstamos trabalhando para sempre melhorar\nFique a vontade para tirar suas duvidas, estamos a disposição","customColor":"#f8ab00","image":"https://cdn.discordapp.com/attachments/1390508847260631111/1489954461563486298/image.png?ex=69d24bb9&is=69d0fa39&hm=8c270eae05dfe97824d88aa980657c851722906ba48dd9e148122aee2e7372e4&","thumbnail":"https://cdn.discordapp.com/attachments/1390508847260631111/1489954461563486298/image.png?ex=69d24bb9&is=69d0fa39&hm=8c270eae05dfe97824d88aa980657c851722906ba48dd9e148122aee2e7372e4&","fields":[{"name":"field name","value":"field value","inline":false}],"timestamp":false}},
+                {"id":"opendiscord:ticket-message-ping","value":{"@here":true,"@everyone":false,"custom":["1489950595778482326"]}},
+                {"id":"opendiscord:autoclose-enable-hours","value":false},
+                {"id":"opendiscord:autoclose-enable-leave","value":false},
+                {"id":"opendiscord:autoclose-disable-claim","value":false},
+                {"id":"opendiscord:autoclose-hours","value":24},
+                {"id":"opendiscord:autodelete-enable-days","value":false},
+                {"id":"opendiscord:autodelete-enable-leave","value":false},
+                {"id":"opendiscord:autodelete-disable-claim","value":false},
+                {"id":"opendiscord:autodelete-days","value":7},
+                {"id":"opendiscord:cooldown-enabled","value":false},
+                {"id":"opendiscord:cooldown-minutes","value":10},
+                {"id":"opendiscord:limits-enabled","value":false},
+                {"id":"opendiscord:limits-maximum-global","value":20},
+                {"id":"opendiscord:limits-maximum-user","value":3},
+                {"id":"opendiscord:slowmode-enabled","value":false},
+                {"id":"opendiscord:slowmode-seconds","value":20}
+            ]
+        }
+    }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "id": "duvida",
+    "name": "Duvidas",
+    "description": "Crie um ticket para sanar uma duvida.",
+    "type": "ticket",
+    "button": {
+      "emoji": "🎫",
+      "label": "Duvidas",
+      "color": "green"
+    },
+    "ticketAdmins": ["1489950595778482326"],
+    "readonlyAdmins": ["1489950595778482326"],
+    "allowCreationByBlacklistedUsers": false,
+    "questions": ["duvida-1", "duvida-2"],
+    "channel": {
+      "prefix": "Duvida-",
+      "suffix": "user-name",
+      "category": "1461701100099862558",
+      "closedCategory": "1461701100099862558",
+      "backupCategory": "1461701100099862558",
+      "claimedCategory": [
+        {
+          "user": "1489950595778482326",
+          "category": "1461701100099862558"
+        }
+      ],
+      "topic": "Esse é o topico desse ticket e é visivel para todos"
+    },
+    "dmMessage": {
+      "enabled": true,
+      "text": "Obrigado por criar um ticket, aguarde o atendimento!",
+      "embed": {
+        "enabled": true,
+        "title": "Hezzuz.com",
+        "description": "Ticket aberto para falar sobre duvidas!",
+        "customColor": "#f8ab00",
+        "image": "https://cdn.discordapp.com/attachments/1390508847260631111/1489954461563486298/image.png?ex=69d24bb9&is=69d0fa39&hm=8c270eae05dfe97824d88aa980657c851722906ba48dd9e148122aee2e7372e4&",
+        "thumbnail": "https://cdn.discordapp.com/attachments/1390508847260631111/1489954461563486298/image.png?ex=69d24bb9&is=69d0fa39&hm=8c270eae05dfe97824d88aa980657c851722906ba48dd9e148122aee2e7372e4&",
+        "fields": [
+          {
+            "name": "field name",
+            "value": "field value",
+            "inline": false
+          }
+        ],
+        "timestamp": false
+      }
+    },
+    "ticketMessage": {
+      "enabled": true,
+      "text": "",
+      "embed": {
+        "enabled": true,
+        "title": "Duvida",
+        "description": "Seja bem vindo ao seu ticket.\nEstamos trabalhando para sempre melhorar\nFique a vontade para tirar suas duvidas, estamos a disposição",
+        "customColor": "#f8ab00",
+        "image": "https://cdn.discordapp.com/attachments/1390508847260631111/1489954461563486298/image.png?ex=69d24bb9&is=69d0fa39&hm=8c270eae05dfe97824d88aa980657c851722906ba48dd9e148122aee2e7372e4&",
+        "thumbnail": "https://cdn.discordapp.com/attachments/1390508847260631111/1489954461563486298/image.png?ex=69d24bb9&is=69d0fa39&hm=8c270eae05dfe97824d88aa980657c851722906ba48dd9e148122aee2e7372e4&",
+        "fields": [
+          {
+            "name": "field name",
+            "value": "field value",
+            "inline": false
+          }
+        ],
+        "timestamp": false
+      },
+      "ping": {
+        "@here": true,
+        "@everyone": false,
+        "custom": ["1489950595778482326"]
+      }
+    },
+    "autoclose": {
+      "enableInactiveHours": false,
+      "inactiveHours": 24,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "autodelete": {
+      "enableInactiveDays": false,
+      "inactiveDays": 7,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "cooldown": {
+      "enabled": false,
+      "cooldownMinutes": 10
+    },
+    "limits": {
+      "enabled": false,
+      "globalMaximum": 20,
+      "userMaximum": 3
+    },
+    "slowMode": {
+      "enabled": false,
+      "slowModeSeconds": 20
+    }
+  },
+  {
+    "id": "financeiro",
+    "name": "Financeiro",
+    "description": "Crie um ticket para falar sobre financeiro.",
+    "type": "ticket",
+    "button": {
+      "emoji": "💵",
+      "label": "Financeiro",
+      "color": "red"
+    },
+    "ticketAdmins": ["1489950595778482326"],
+    "readonlyAdmins": ["1489950595778482326"],
+    "allowCreationByBlacklistedUsers": false,
+    "questions": ["financeiro-1", "financeiro-2"],
+    "channel": {
+      "prefix": "Financeiro-",
+      "suffix": "user-name",
+      "category": "1461701100099862558",
+      "closedCategory": "1461701100099862558",
+      "backupCategory": "1461701100099862558",
+      "claimedCategory": [
+        {
+          "user": "1489950595778482326",
+          "category": "1461701100099862558"
+        }
+      ],
+      "topic": "Esse é o topico desse ticket e é visivel para todos"
+    },
+    "dmMessage": {
+      "enabled": true,
+      "text": "Obrigado por criar um ticket, aguarde o atendimento!",
+      "embed": {
+        "enabled": true,
+        "title": "Hezzuz.com",
+        "description": "Ticket aberto para falar sobre duvidas!",
+        "customColor": "#f8ab00",
+        "image": "https://cdn.discordapp.com/attachments/1390508847260631111/1489954461563486298/image.png?ex=69d24bb9&is=69d0fa39&hm=8c270eae05dfe97824d88aa980657c851722906ba48dd9e148122aee2e7372e4&",
+        "thumbnail": "https://cdn.discordapp.com/attachments/1390508847260631111/1489954461563486298/image.png?ex=69d24bb9&is=69d0fa39&hm=8c270eae05dfe97824d88aa980657c851722906ba48dd9e148122aee2e7372e4&",
+        "fields": [
+          {
+            "name": "field name",
+            "value": "field value",
+            "inline": false
+          }
+        ],
+        "timestamp": false
+      }
+    },
+    "ticketMessage": {
+      "enabled": true,
+      "text": "",
+      "embed": {
+        "enabled": true,
+        "title": "Financeiro",
+        "description": "Obrigado por abrir um ticket sobre Financeiro\nAguarde seu atendimento, estamos a disposição para sanar suas duvidas!",
+        "customColor": "#f8ab00",
+        "image": "https://cdn.discordapp.com/attachments/1390508847260631111/1489954461563486298/image.png?ex=69d24bb9&is=69d0fa39&hm=8c270eae05dfe97824d88aa980657c851722906ba48dd9e148122aee2e7372e4&",
+        "thumbnail": "https://cdn.discordapp.com/attachments/1390508847260631111/1489954461563486298/image.png?ex=69d24bb9&is=69d0fa39&hm=8c270eae05dfe97824d88aa980657c851722906ba48dd9e148122aee2e7372e4&",
+        "fields": [
+          {
+            "name": "field name",
+            "value": "field value",
+            "inline": false
+          }
+        ],
+        "timestamp": false
+      },
+      "ping": {
+        "@here": true,
+        "@everyone": false,
+        "custom": ["1489950595778482326"]
+      }
+    },
+    "autoclose": {
+      "enableInactiveHours": false,
+      "inactiveHours": 24,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "autodelete": {
+      "enableInactiveDays": false,
+      "inactiveDays": 7,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "cooldown": {
+      "enabled": false,
+      "cooldownMinutes": 10
+    },
+    "limits": {
+      "enabled": false,
+      "globalMaximum": 20,
+      "userMaximum": 3
+    },
+    "slowMode": {
+      "enabled": false,
+      "slowModeSeconds": 20
+    }
+  },
+  {
+    "id": "recurso",
+    "name": "Recurso de Punição",
+    "description": "Solicite a revisão de uma punição aplicada pela equipe.",
+    "type": "ticket",
+    "button": {
+      "emoji": "⚖️",
+      "label": "Recurso",
+      "color": "gray"
+    },
+    "ticketAdmins": ["1489950595778482326"],
+    "readonlyAdmins": ["1489950595778482326"],
+    "allowCreationByBlacklistedUsers": false,
+    "questions": [
+      "recurso-nick",
+      "recurso-tipo",
+      "recurso-motivo",
+      "recurso-provas"
+    ],
+    "channel": {
+      "prefix": "Recurso-",
+      "suffix": "user-name",
+      "category": "1461701100099862558",
+      "closedCategory": "1461701100099862558",
+      "backupCategory": "1461701100099862558",
+      "claimedCategory": [
+        {
+          "user": "1489950595778482326",
+          "category": "1461701100099862558"
+        }
+      ],
+      "topic": "Recurso de punição — acesso restrito ao autor e à equipe autorizada."
+    },
+    "dmMessage": {
+      "enabled": true,
+      "text": "Seu recurso foi aberto. Aguarde a análise da equipe de moderação.",
+      "embed": {
+        "enabled": true,
+        "title": "⚖️ Recurso registrado — HEZZUZ",
+        "description": "Recebemos seu pedido. A equipe responsável analisará as informações. A abertura de um recurso não garante reversão da punição.",
+        "customColor": "#C99B44",
+        "image": "",
+        "thumbnail": "",
+        "fields": [],
+        "timestamp": false
+      }
+    },
+    "ticketMessage": {
+      "enabled": true,
+      "text": "",
+      "embed": {
+        "enabled": true,
+        "title": "⚖️ Revisão de punição",
+        "description": "Explique sua solicitação com respeito e anexe as provas, caso possua. A staff pode consultar o histórico com `/modhistory` e registrar sua decisão. **A abertura deste ticket não suspende a punição.**",
+        "customColor": "#C99B44",
+        "image": "",
+        "thumbnail": "",
+        "fields": [],
+        "timestamp": false
+      },
+      "ping": {
+        "@here": false,
+        "@everyone": false,
+        "custom": []
+      }
+    },
+    "autoclose": {
+      "enableInactiveHours": false,
+      "inactiveHours": 24,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "autodelete": {
+      "enableInactiveDays": false,
+      "inactiveDays": 7,
+      "enableUserLeave": false,
+      "disableOnClaim": false
+    },
+    "cooldown": {
+      "enabled": true,
+      "cooldownMinutes": 10
+    },
+    "limits": {
+      "enabled": true,
+      "globalMaximum": 100,
+      "userMaximum": 1
+    },
+    "slowMode": {
+      "enabled": false,
+      "slowModeSeconds": 20
+    }
+  }
+]

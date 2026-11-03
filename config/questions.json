@@ -1,0 +1,110 @@
+[
+  {
+    "id": "duvida-1",
+    "name": "Qual a sua Duvida",
+    "type": "short",
+    "required": true,
+    "placeholder": "Insira a sua duvida aqui!",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "duvida-2",
+    "name": "Descreva a sua duvida.",
+    "type": "paragraph",
+    "required": false,
+    "placeholder": "Descreva a sua duvida aqui, aguarde ser atendido!",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "financeiro-1",
+    "name": "Qual a sua Duvida",
+    "type": "short",
+    "required": true,
+    "placeholder": "Insira a sua duvida sobre financeiro aqui!",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "financeiro-2",
+    "name": "Descreva a sua duvida.",
+    "type": "paragraph",
+    "required": false,
+    "placeholder": "Descreva a sua duvida sobre financeiro aqui, aguarde ser atendido!",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "recurso-nick",
+    "name": "Nick ou ID do jogador",
+    "type": "short",
+    "required": true,
+    "placeholder": "Informe seu nick ou ID do Discord.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "recurso-tipo",
+    "name": "Qual punição deseja recorrer?",
+    "type": "short",
+    "required": true,
+    "placeholder": "Ex.: advertência, timeout, expulsão ou banimento",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "recurso-motivo",
+    "name": "Por que deseja a revisão?",
+    "type": "paragraph",
+    "required": true,
+    "placeholder": "Explique os fatos e por que a punição deve ser revista.",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "recurso-provas",
+    "name": "Provas ou informações adicionais",
+    "type": "paragraph",
+    "required": false,
+    "placeholder": "Links para prints, vídeos, datas ou outros detalhes (opcional).",
+    "length": {
+      "enabled": false,
+      "min": 0,
+      "max": 1000
+    }
+  },
+  {
+    "id": "donate-nick",
+    "name": "Qual é seu nick no Minecraft?",
+    "type": "short",
+    "required": true,
+    "placeholder": "Informe seu nickname (a conta deverá estar vinculada).",
+    "length": {
+      "enabled": true,
+      "min": 3,
+      "max": 16
+    }
+  }
+]

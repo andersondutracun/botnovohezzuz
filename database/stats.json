@@ -1,0 +1,17 @@
+[
+    {"category":"opendiscord:global_opendiscord:tickets-created","key":"GLOBAL","value":16},
+    {"category":"opendiscord:user_opendiscord:tickets-created","key":"331428050870730753","value":13},
+    {"category":"opendiscord:global_opendiscord:tickets-deleted","key":"GLOBAL","value":15},
+    {"category":"opendiscord:user_opendiscord:tickets-deleted","key":"331428050870730753","value":15},
+    {"category":"opendiscord:global_opendiscord:tickets-claimed","key":"GLOBAL","value":2},
+    {"category":"opendiscord:user_opendiscord:tickets-claimed","key":"331428050870730753","value":2},
+    {"category":"opendiscord:global_opendiscord:tickets-closed","key":"GLOBAL","value":5},
+    {"category":"opendiscord:user_opendiscord:tickets-closed","key":"331428050870730753","value":5},
+    {"category":"opendiscord:global_opendiscord:transcripts-created","key":"GLOBAL","value":4},
+    {"category":"opendiscord:user_opendiscord:transcripts-created","key":"331428050870730753","value":4},
+    {"category":"opendiscord:global_opendiscord:tickets-pinned","key":"GLOBAL","value":1},
+    {"category":"opendiscord:user_opendiscord:tickets-pinned","key":"331428050870730753","value":1},
+    {"category":"opendiscord:user_opendiscord:tickets-created","key":"1246876360065155104","value":1},
+    {"category":"opendiscord:user_opendiscord:tickets-created","key":"1562612214349832209","value":1},
+    {"category":"opendiscord:user_opendiscord:tickets-created","key":"1161706749666017430","value":1}
+]

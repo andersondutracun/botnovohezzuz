@@ -1,0 +1,46 @@
+[
+    {
+        "category":"opendiscord:ticket",
+        "key":"1563171348048642149",
+        "value":{
+            "id":"1563171348048642149",
+            "option":"duvida",
+            "version":"v4.1.3",
+            "data":[
+                {"id":"opendiscord:busy","value":false},
+                {"id":"opendiscord:ticket-message","value":"1563171352477835274"},
+                {"id":"opendiscord:participants","value":[{"type":"role","id":"1489950595778482326"},{"type":"user","id":"1562612214349832209"}]},
+                {"id":"opendiscord:channel-suffix","value":"jalam_bepaw_90937"},
+                {"id":"opendiscord:previous-creators","value":[]},
+                {"id":"opendiscord:open","value":true},
+                {"id":"opendiscord:opened-by","value":"1562612214349832209"},
+                {"id":"opendiscord:opened-on","value":1792759491808},
+                {"id":"opendiscord:closed","value":false},
+                {"id":"opendiscord:closed-by","value":null},
+                {"id":"opendiscord:closed-on","value":null},
+                {"id":"opendiscord:reopened","value":false},
+                {"id":"opendiscord:reopened-by","value":null},
+                {"id":"opendiscord:reopened-on","value":null},
+                {"id":"opendiscord:claimed","value":false},
+                {"id":"opendiscord:claimed-by","value":null},
+                {"id":"opendiscord:claimed-on","value":null},
+                {"id":"opendiscord:pinned","value":false},
+                {"id":"opendiscord:pinned-by","value":null},
+                {"id":"opendiscord:pinned-on","value":null},
+                {"id":"opendiscord:for-deletion","value":false},
+                {"id":"opendiscord:category","value":"1461701100099862558"},
+                {"id":"opendiscord:category-mode","value":"normal"},
+                {"id":"opendiscord:autoclose-enabled","value":false},
+                {"id":"opendiscord:autoclose-hours","value":0},
+                {"id":"opendiscord:autoclosed","value":false},
+                {"id":"opendiscord:autodelete-enabled","value":false},
+                {"id":"opendiscord:autodelete-days","value":0},
+                {"id":"opendiscord:answers","value":[{"id":"duvida-1","name":"Qual a sua Duvida","type":"short","value":"Dinheiro"},{"id":"duvida-2","name":"Descreva a sua duvida.","type":"paragraph","value":"Estou começando a jogar agora, como faço para ganhar dinheiro no survival"}]},
+                {"id":"opendiscord:priority","value":-1},
+                {"id":"opendiscord:topic","value":"Esse é o topico desse ticket e é visivel para todos"},
+                {"id":"opendiscord:message-sent","value":false},
+                {"id":"opendiscord:admin-message-sent","value":false}
+            ]
+        }
+    }
+]

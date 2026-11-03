@@ -1,0 +1,42 @@
+[
+  {
+    "id": "embed",
+    "name": "Embed",
+    "dropdown": false,
+    "options": [
+      "duvida",
+      "financeiro",
+      "recurso",
+      "donate"
+    ],
+    "text": "",
+    "embed": {
+      "enabled": true,
+      "title": "Suporte",
+      "description": "⚔️ **Central de Atendimento HEZZUZ**\nSelecione o assunto para falar com a equipe:\n🎫 Dúvidas • 💵 Financeiro • ⚖️ Recurso de Punição",
+      "customColor": "#f8ab00",
+      "url": "https://hezzuz.com",
+      "image": "https://cdn.discordapp.com/attachments/1390508847260631111/1489954461563486298/image.png?ex=69d24bb9&is=69d0fa39&hm=8c270eae05dfe97824d88aa980657c851722906ba48dd9e148122aee2e7372e4&",
+      "thumbnail": "https://cdn.discordapp.com/attachments/1390508847260631111/1489954461563486298/image.png?ex=69d24bb9&is=69d0fa39&hm=8c270eae05dfe97824d88aa980657c851722906ba48dd9e148122aee2e7372e4&",
+      "footer": "Hezzuz.com - Venha jogar conosco.",
+      "fields": [
+        {
+          "name": "📌 Antes de abrir",
+          "value": "Escolha a categoria correta e descreva seu caso com respeito. Tickets de recurso são analisados pela staff e não garantem reversão da punição.",
+          "inline": false
+        }
+      ],
+      "timestamp": false
+    },
+    "settings": {
+      "dropdownPlaceholder": "Criar um ticket!",
+      "enableMaxTicketsWarningInText": false,
+      "enableMaxTicketsWarningInEmbed": true,
+      "describeOptionsLayout": "detailed",
+      "describeOptionsCustomTitle": "",
+      "describeOptionsInText": false,
+      "describeOptionsInEmbedFields": true,
+      "describeOptionsInEmbedDescription": false
+    }
+  }
+]

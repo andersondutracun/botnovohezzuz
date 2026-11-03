@@ -1,0 +1,175 @@
+# HEZZUZ 5.0 — Inventário de auditoria (sem valores de configuração)
+Gerado em UTC: 2026-10-24 01:32
+Projeto: HEZZUZ-Bot-2.0-Boas-Vindas
+**Somente leitura. Não testa credenciais, não altera arquivos e não realiza pagamentos.**
+
+## Módulos detectados (22)
+- example-plugin | index.ts: sim | plugin.json: sim
+- hezzuz-admin | index.ts: sim | plugin.json: sim
+- hezzuz-ai-support | index.ts: sim | plugin.json: sim
+- hezzuz-analytics | index.ts: sim | plugin.json: sim
+- hezzuz-antispam | index.ts: sim | plugin.json: sim
+- hezzuz-anuncios | index.ts: sim | plugin.json: sim
+- hezzuz-autoroles | index.ts: sim | plugin.json: sim
+- hezzuz-contador | index.ts: sim | plugin.json: sim
+- hezzuz-donate | index.ts: sim | plugin.json: sim
+- hezzuz-donate-extras | index.ts: sim | plugin.json: sim
+- hezzuz-economy-games | index.ts: sim | plugin.json: sim
+- hezzuz-estatisticas | index.ts: sim | plugin.json: sim
+- hezzuz-eventos | index.ts: sim | plugin.json: sim
+- hezzuz-link | index.ts: sim | plugin.json: sim
+- hezzuz-logs | index.ts: sim | plugin.json: sim
+- hezzuz-minecraft | index.ts: sim | plugin.json: sim
+- hezzuz-moderacao | index.ts: sim | plugin.json: sim
+- hezzuz-player-profile | index.ts: sim | plugin.json: sim
+- hezzuz-registro | index.ts: sim | plugin.json: sim
+- hezzuz-sorteios | index.ts: sim | plugin.json: sim
+- hezzuz-vipsync | index.ts: sim | plugin.json: sim
+- hezzuz-welcome | index.ts: sim | plugin.json: sim
+
+## Verificações de arquivos (sem exibir conteúdo)
+- hezzuz-donate: config presente
+  - JSON: válido
+  - orders.json: presente (fazer backup antes de atualizar)
+- hezzuz-link: config presente
+  - JSON: válido
+- hezzuz-vipsync: config presente
+  - JSON: válido
+- hezzuz-economy-games: config presente
+  - JSON: válido
+  - economy.json: presente (fazer backup antes de atualizar)
+- hezzuz-ai-support: config presente
+  - JSON: válido
+
+## Comandos slash encontrados por inspeção estática (pode haver falsos positivos)
+- /ajuda: hezzuz-admin
+- /anunciar: hezzuz-anuncios
+- /appealinfo: hezzuz-moderacao
+- /auditoria: hezzuz-economy-games
+- /ban: hezzuz-moderacao
+- /canal: hezzuz-anuncios, hezzuz-eventos, hezzuz-sorteios
+- /cancelar: hezzuz-economy-games
+- /cargoopcional: hezzuz-autoroles
+- /clear: hezzuz-moderacao
+- /codigo: hezzuz-link
+- /confirmar: hezzuz-admin, hezzuz-donate, hezzuz-link
+- /conta: hezzuz-link
+- /creditar: hezzuz-economy-games
+- /criar: hezzuz-eventos, hezzuz-sorteios
+- /data: hezzuz-eventos
+- /debitar: hezzuz-economy-games
+- /desvincular: hezzuz-link
+- /diagnostico: hezzuz-admin
+- /dificuldade: hezzuz-economy-games
+- /donate: hezzuz-donate-extras
+- /donateteste: hezzuz-donate
+- /encerrar: hezzuz-sorteios
+- /entregar: hezzuz-donate
+- /estatisticashezzuz: hezzuz-estatisticas
+- /eventohezzuz: hezzuz-eventos
+- /geral: hezzuz-vipsync
+- /hezzadivinhar: hezzuz-economy-games
+- /hezzadmin: hezzuz-economy-games
+- /hezzboss: hezzuz-economy-games
+- /hezzdesenho: hezzuz-economy-games
+- /hezzdiario: hezzuz-economy-games
+- /hezzduelo: hezzuz-economy-games
+- /hezzforca: hezzuz-economy-games
+- /hezzinventario: hezzuz-economy-games
+- /hezzjogos: hezzuz-economy-games
+- /hezzjokenpo: hezzuz-economy-games
+- /hezzloja: hezzuz-economy-games
+- /hezzmemoria: hezzuz-economy-games
+- /hezzminerar: hezzuz-economy-games
+- /hezzmissoes: hezzuz-economy-games
+- /hezznaval: hezzuz-economy-games
+- /hezzpainel: hezzuz-economy-games
+- /hezzquiz: hezzuz-economy-games
+- /hezzranking: hezzuz-economy-games
+- /hezzresgatar: hezzuz-economy-games
+- /hezzsaldo: hezzuz-economy-games
+- /hezztemporada: hezzuz-economy-games
+- /hezztesouro: hezzuz-economy-games
+- /hezztrabalhar: hezzuz-economy-games
+- /hezzuz: hezzuz-admin
+- /hezzuz-registro: hezzuz-registro
+- /hezzuzrelatorio: hezzuz-analytics
+- /hezzvelha: hezzuz-economy-games
+- /hezzvitorias: hezzuz-economy-games
+- /humano: hezzuz-ai-support
+- /iasuporte: hezzuz-ai-support
+- /id: hezzuz-eventos, hezzuz-moderacao, hezzuz-sorteios
+- /imagem: hezzuz-economy-games
+- /inscritos: hezzuz-eventos
+- /kick: hezzuz-moderacao
+- /minecrafthezzuz: hezzuz-minecraft
+- /minhascompras: hezzuz-donate-extras
+- /minutos: hezzuz-moderacao, hezzuz-sorteios
+- /modhistory: hezzuz-moderacao
+- /moedas: hezzuz-economy-games
+- /motivo: hezzuz-economy-games, hezzuz-moderacao
+- /mpcredenciais: hezzuz-donate
+- /nome: hezzuz-autoroles
+- /oponente: hezzuz-economy-games
+- /painel: hezzuz-admin, hezzuz-registro
+- /pedido: hezzuz-donate-extras, hezzuz-economy-games
+- /pendencias: hezzuz-donate-extras
+- /perfilhezzuz: hezzuz-player-profile
+- /pixcriar: hezzuz-donate
+- /pixstatus: hezzuz-donate
+- /pontos: hezzuz-donate, hezzuz-economy-games
+- /premio: hezzuz-sorteios
+- /previa: hezzuz-vipsync
+- /publicar: hezzuz-registro
+- /quantidade: hezzuz-moderacao
+- /rankingcontador: hezzuz-contador
+- /referencia: hezzuz-donate-extras
+- /relatorio: hezzuz-donate-extras
+- /resgates: hezzuz-economy-games
+- /resposta: hezzuz-economy-games
+- /retomar: hezzuz-ai-support
+- /sincronizar: hezzuz-admin, hezzuz-vipsync
+- /sorteio: hezzuz-sorteios
+- /status: hezzuz-admin, hezzuz-ai-support, hezzuz-donate
+- /texto: hezzuz-anuncios
+- /timeout: hezzuz-moderacao
+- /tipo: hezzuz-economy-games
+- /titulo: hezzuz-anuncios, hezzuz-eventos
+- /untimeout: hezzuz-moderacao
+- /unwarn: hezzuz-moderacao
+- /usuario: hezzuz-donate, hezzuz-economy-games, hezzuz-moderacao, hezzuz-player-profile, hezzuz-vipsync
+- /valor: hezzuz-donate
+- /verificar: hezzuz-vipsync
+- /versao: hezzuz-admin
+- /vincular: hezzuz-link
+- /vipsync: hezzuz-vipsync
+- /warn: hezzuz-moderacao
+- /warnings: hezzuz-moderacao
+
+## Possíveis nomes duplicados (revisão manual)
+- canal: hezzuz-anuncios, hezzuz-eventos, hezzuz-sorteios
+- confirmar: hezzuz-admin, hezzuz-donate, hezzuz-link
+- criar: hezzuz-eventos, hezzuz-sorteios
+- id: hezzuz-eventos, hezzuz-moderacao, hezzuz-sorteios
+- minutos: hezzuz-moderacao, hezzuz-sorteios
+- motivo: hezzuz-economy-games, hezzuz-moderacao
+- painel: hezzuz-admin, hezzuz-registro
+- pedido: hezzuz-donate-extras, hezzuz-economy-games
+- pontos: hezzuz-donate, hezzuz-economy-games
+- sincronizar: hezzuz-admin, hezzuz-vipsync
+- status: hezzuz-admin, hezzuz-ai-support, hezzuz-donate
+- titulo: hezzuz-anuncios, hezzuz-eventos
+- usuario: hezzuz-donate, hezzuz-economy-games, hezzuz-moderacao, hezzuz-player-profile, hezzuz-vipsync
+
+## Checklist de homologação
+- [ ] Backup de banco e arquivos persistentes restaurável
+- [ ] Compilação npm start sem erro TS
+- [ ] Pix real: criação, validação, entrega única, estorno e reinício
+- [ ] VIP Sync: promoção, expiração, cargos preservados
+- [ ] Link: vincular/desvincular e autorização
+- [ ] Economy: concorrência, limites, restauração
+- [ ] Games: botões, partidas simultâneas, canais
+- [ ] ChatBridge: anti-loop, rate limit, nChat e permissões
+- [ ] Network Manager: somente leitura, perdas de conexão
+- [ ] Sentinel: alertas sem punições automáticas
+- [ ] Observabilidade: logs sem segredos, alertas e healthcheck
