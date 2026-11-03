@@ -1,0 +1,11 @@
+{
+  "enabled": true,
+  "guildId": "1461167877536350402",
+  "staffRoleIds": [],
+  "logsChannelId": "1562625308291637359",
+  "blockInvites": false,
+  "windowSeconds": 8,
+  "maxMessages": 6,
+  "timeoutMinutes": 5,
+  "exemptChannelIds": []
+}

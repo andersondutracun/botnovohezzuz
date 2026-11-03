@@ -1,0 +1,31 @@
+{
+  "name": "HEZZUZ VIP Sync",
+  "id": "hezzuz-vipsync",
+  "version": "1.1.0",
+  "startFile": "index.ts",
+  "supportedVersions": [
+    "OTv4.1.x"
+  ],
+  "enabled": true,
+  "priority": 2,
+  "events": [],
+  "npmDependencies": [
+    "mysql2"
+  ],
+  "requiredPlugins": [
+    "hezzuz-link"
+  ],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "Sincroniza VIPs LuckPerms MySQL com cargos Discord",
+    "longDescription": "Vinculação por código com UUID e ID Discord",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": [
+      "hezzuz",
+      "minecraft"
+    ]
+  }
+}

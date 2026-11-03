@@ -1,0 +1,27 @@
+{
+  "name": "HEZZUZ Antispam",
+  "id": "hezzuz-antispam",
+  "version": "3.0.0",
+  "startFile": "index.ts",
+  "supportedVersions": [
+    "OTv4.1.x"
+  ],
+  "enabled": true,
+  "priority": 0,
+  "events": [],
+  "npmDependencies": [],
+  "requiredPlugins": [],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "Detecção de flood e convites Discord",
+    "longDescription": "Detecção de flood e convites Discord",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": [
+      "hezzuz",
+      "antispam"
+    ]
+  }
+}

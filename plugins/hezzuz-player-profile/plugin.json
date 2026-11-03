@@ -1,0 +1,28 @@
+{
+  "name": "HEZZUZ Player Profile 1.0",
+  "id": "hezzuz-player-profile",
+  "version": "1.0.0",
+  "startFile": "index.ts",
+  "supportedVersions": [
+    "OTv4.1.x"
+  ],
+  "enabled": true,
+  "priority": 3,
+  "events": [],
+  "npmDependencies": [],
+  "requiredPlugins": [
+    "hezzuz-link"
+  ],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "HEZZUZ Player Profile 1.0",
+    "longDescription": "Módulo complementar de leitura, não altera transações nem PlayerPoints.",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": [
+      "hezzuz"
+    ]
+  }
+}

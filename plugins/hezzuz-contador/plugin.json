@@ -1,0 +1,27 @@
+{
+  "name": "HEZZUZ Contador",
+  "id": "hezzuz-contador",
+  "version": "3.0.0",
+  "startFile": "index.ts",
+  "supportedVersions": [
+    "OTv4.1.x"
+  ],
+  "enabled": true,
+  "priority": 0,
+  "events": [],
+  "npmDependencies": [],
+  "requiredPlugins": [],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "Canal de contagem com ranking",
+    "longDescription": "Canal de contagem com ranking",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": [
+      "hezzuz",
+      "contador"
+    ]
+  }
+}

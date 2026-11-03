@@ -1,0 +1,22 @@
+{
+  "name": "HEZZUZ Moderação",
+  "id": "hezzuz-moderacao",
+  "version": "1.0.0",
+  "startFile": "index.ts",
+  "supportedVersions": ["OTv4.1.x"],
+  "enabled": true,
+  "priority": 0,
+  "events": [],
+  "npmDependencies": [],
+  "requiredPlugins": [],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "Moderação e logs do Discord HEZZUZ",
+    "longDescription": "Comandos de moderação, advertências persistentes e logs de ações.",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": ["moderation", "logs"]
+  }
+}

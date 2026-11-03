@@ -1,0 +1,33 @@
+{
+  "enabled": true,
+  "guildId": "1461167877536350402",
+  "currencyName": "HezzCoins",
+  "startingCoins": 0,
+  "dailyCoins": 75,
+  "dailyEarnCap": 500,
+  "cooldownSeconds": 35,
+  "redemptionEnabled": true,
+  "realDeliveryEnabled": false,
+  "redemptionsPerDay": 1,
+  "redemptionOffers": [
+    { "coins": 5000, "points": 100 },
+    { "coins": 10000, "points": 200 },
+    { "coins": 25000, "points": 500 },
+    { "coins": 50000, "points": 1000 },
+    { "coins": 100000, "points": 2000 }
+  ],
+  "staffRoleIds": [],
+  "adminLogChannelId": "",
+  "bossHp": 1000,
+  "bossResetHours": 24,
+  "gamePanelChannelId": "1563347459609071616",
+  "gamePanelMessageId": "",
+  "gameChannelIds": ["1563279782643236894"],
+  "publicGameMessages": true,
+  "classicChannelIds": ["1563355315355910237"],
+  "rpgChannelIds": ["1563279782643236894"],
+  "classicPanelChannelId": "1563355315355910237",
+  "rpgPanelChannelId": "1563279782643236894",
+  "classicPanelMessageId": "1563347459609071616",
+  "rpgPanelMessageId": "1563347459609071616"
+}

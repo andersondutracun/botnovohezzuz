@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "guildId": "1461167877536350402",
+  "staleSeconds": 180,
+  "alertChannelId": "",
+  "alertEnabled": false,
+  "pollSeconds": 60
+}

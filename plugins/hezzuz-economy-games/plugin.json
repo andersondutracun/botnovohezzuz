@@ -1,0 +1,22 @@
+{
+  "name": "HEZZUZ Economy & Games",
+  "id": "hezzuz-economy-games",
+  "version": "1.0.0",
+  "startFile": "index.ts",
+  "supportedVersions": ["OTv4.1.x"],
+  "enabled": true,
+  "priority": 2,
+  "events": [],
+  "npmDependencies": [],
+  "requiredPlugins": ["hezzuz-link"],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "Economia RPG, minijogos e resgates controlados",
+    "longDescription": "HezzCoins com economia e missões, sem apostar moedas e com entrega real de PlayerPoints desativada por padrão.",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": ["hezzuz", "economy", "minigames", "rpg"]
+  }
+}

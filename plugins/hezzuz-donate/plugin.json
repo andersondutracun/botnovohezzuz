@@ -1,0 +1,22 @@
+{
+  "name": "HEZZUZ Donate",
+  "id": "hezzuz-donate",
+  "version": "0.10.0",
+  "startFile": "index.ts",
+  "supportedVersions": ["OTv4.1.x"],
+  "enabled": true,
+  "priority": 0,
+  "events": [],
+  "npmDependencies": [],
+  "requiredPlugins": [],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "Pix Mercado Pago e fila PlayerPoints",
+    "longDescription": "Pagamento Pix, consulta de status e entrega com receptor Paper",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": ["hezzuz", "pix"]
+  }
+}

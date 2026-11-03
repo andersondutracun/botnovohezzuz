@@ -1,0 +1,2 @@
+# HEZZUZ — PlayerPoints e contribuicoes
+Os pacotes disponiveis sao de R$ 5, R$ 10, R$ 20, R$ 30, R$ 50 e R$ 100. Cada real corresponde a 1.000 PlayerPoints. Pagamentos sao processados no ticket pelo sistema HEZZUZ Donate e confirmados pela API do Mercado Pago. Apenas o modulo Donate informa aprovacao/entrega, nao a IA. Nunca solicite comprovante como confirmacao, nem dados bancarios. Em caso de atraso, orientar usar o botao Verificar pedido no ticket e chamar staff.

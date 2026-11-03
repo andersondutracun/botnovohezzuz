@@ -1,0 +1,26 @@
+{
+  "name": "Hezzuz Chatbridge",
+  "id": "hezzuz-chatbridge",
+  "version": "5.0.0-preview.1",
+  "startFile": "index.ts",
+  "supportedVersions": [
+    "OTv4.1.x"
+  ],
+  "enabled": true,
+  "priority": 0,
+  "events": [],
+  "npmDependencies": [],
+  "requiredPlugins": [],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "Chat bidirecional autenticado; requer conector Minecraft",
+    "longDescription": "Chat bidirecional autenticado; requer conector Minecraft",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": [
+      "hezzuz"
+    ]
+  }
+}

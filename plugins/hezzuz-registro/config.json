@@ -1,0 +1,152 @@
+{
+  "enabled": true,
+  "guildId": "1461167877536350402",
+  "registrationChannelId": "1539859733215846470",
+  "presentationChannelId": "1562619698686730240",
+  "playersRoleId": "1461167877536350403",
+  "rulesChannelId": "",
+  "logsChannelId": "1461510151193497690",
+  "embedColor": "#D4A747",
+  "presentationCategories": [
+    {
+      "key": "regiao",
+      "label": "Região",
+      "placeholder": "Escolha sua região (opcional)",
+      "roles": [
+        {
+          "id": "1539812995440451705",
+          "label": "Região Norte"
+        },
+        {
+          "id": "1539813208796303431",
+          "label": "Região Nordeste"
+        },
+        {
+          "id": "1539813265092247692",
+          "label": "Região Centro-Oeste"
+        },
+        {
+          "id": "1539813335006978058",
+          "label": "Região Sudeste"
+        },
+        {
+          "id": "1539833807254069328",
+          "label": "Região Sul"
+        },
+        {
+          "id": "1539813411574124566",
+          "label": "Portugal"
+        },
+        {
+          "id": "1539813463591751760",
+          "label": "Outro Pais"
+        }
+      ]
+    },
+    {
+      "key": "faixa_etaria",
+      "label": "Faixa etária",
+      "placeholder": "Escolha sua faixa etária (opcional)",
+      "roles": [
+        {
+          "id": "1539812198224756858",
+          "label": "🌕 15-"
+        },
+        {
+          "id": "1539812343004008499",
+          "label": "🌖  16 a 17 anos"
+        },
+        {
+          "id": "1539826935331561502",
+          "label": "🌒 18 a 25 anos"
+        },
+        {
+          "id": "1539827282972254268",
+          "label": "🌑 26+"
+        }
+      ]
+    },
+    {
+      "key": "genero",
+      "label": "Gênero",
+      "placeholder": "Escolha seu gênero (opcional)",
+      "roles": [
+        {
+          "id": "1539809950044262500",
+          "label": "🚹 Masculino"
+        },
+        {
+          "id": "1539810540228968448",
+          "label": "🚺 Feminino"
+        },
+        {
+          "id": "1539810645615190016",
+          "label": "🔘 Outro G."
+        }
+      ]
+    },
+    {
+      "key": "sexualidade",
+      "label": "Sexualidade",
+      "placeholder": "Escolha uma opção (opcional)",
+      "roles": [
+        {
+          "id": "1539811199791800371",
+          "label": "🏴 Hetero"
+        },
+        {
+          "id": "1539811473742631002",
+          "label": "🏳‍🌈 LGBT+"
+        }
+      ]
+    },
+    {
+      "key": "relacionamento",
+      "label": "Relacionamento",
+      "placeholder": "Escolha uma opção (opcional)",
+      "roles": [
+        {
+          "id": "1539812505810112555",
+          "label": "Solteiro(a)"
+        },
+        {
+          "id": "1540243477089222696",
+          "label": "Ficando"
+        },
+        {
+          "id": "1539812685720326195",
+          "label": "Namorando"
+        },
+        {
+          "id": "1539812756272713799",
+          "label": "Casado(a)"
+        },
+        {
+          "id": "1539812809053970502",
+          "label": "Divorciado(a)"
+        },
+        {
+          "id": "1539812865375076443",
+          "label": "Viúvo(a)"
+        }
+      ]
+    }
+  ],
+  "inhabitantsRoleId": "1539868927616614521",
+  "rulesText": [
+    "**⚔️ 1. Respeito:** Sem assédio, discriminação, ameaças ou perseguição.",
+    "**🛡️ 2. Conteúdo:** Proibidos conteúdos ilegais, explícitos ou violência gráfica.",
+    "**💬 3. Canais:** Nada de spam, flood, menções abusivas ou mensagens fora do tema.",
+    "**🔗 4. Divulgação:** Anúncios e convites somente com autorização. Sem golpes ou links maliciosos.",
+    "**🔒 5. Privacidade:** Não exponha dados pessoais nem se passe por membros ou staff.",
+    "**🎙️ 6. Voz:** Evite ruídos abusivos e respeite a privacidade dos participantes.",
+    "**👤 7. Perfil:** Nomes, imagens e biografias devem ser adequados.",
+    "**💰 8. Negociações:** Sem comércio irregular ou fraudes entre membros.",
+    "**🎮 9. Eventos:** Respeite organizadores; proibidas trapaças e exploração de falhas.",
+    "**🎫 10. Suporte:** Use tickets com responsabilidade; não assedie a staff.",
+    "**⚖️ 11. Moderação:** Violações podem gerar avisos, timeout, expulsão ou banimento; recursos via suporte.",
+    "**📜 12. Atualizações:** Regras podem mudar; atos de má-fé também podem ser punidos.",
+    "",
+    "**⚠️ Leia as regras com atenção e mantenha-se atualizado. A apresentação é opcional.**"
+  ]
+}

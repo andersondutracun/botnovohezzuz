@@ -1,0 +1,27 @@
+{
+  "name": "HEZZUZ Boas-vindas",
+  "id": "hezzuz-welcome",
+  "version": "1.0.0",
+  "startFile": "index.ts",
+  "supportedVersions": [
+    "OTv4.1.x"
+  ],
+  "enabled": true,
+  "priority": 0,
+  "events": [],
+  "npmDependencies": [],
+  "requiredPlugins": [],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "Boas-vindas medievais com acesso ao registro.",
+    "longDescription": "Publica uma mensagem personalizada quando um membro entra na rede.",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": [
+      "welcome",
+      "hezzuz"
+    ]
+  }
+}

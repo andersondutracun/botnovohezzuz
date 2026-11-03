@@ -4,7 +4,6 @@ package-lock.json
 
 devconfig/
 devdatabase/
-plugins/*
 !plugins/example-plugin/
 database/openticket.sqlite
 dist/

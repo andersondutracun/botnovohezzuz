@@ -1,0 +1,28 @@
+{
+  "name": "HEZZUZ AI Support",
+  "id": "hezzuz-ai-support",
+  "version": "1.1.0",
+  "startFile": "index.ts",
+  "supportedVersions": [
+    "OTv4.1.x"
+  ],
+  "enabled": true,
+  "priority": 0,
+  "events": [],
+  "npmDependencies": [],
+  "requiredPlugins": [],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "Atendimento de tickets por IA com transferencia humana",
+    "longDescription": "Atendimento por IA nos tickets com base de conhecimento e transferencia para staff",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": [
+      "hezzuz",
+      "ia",
+      "tickets"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Hezzuz Sentinel",
+  "id": "hezzuz-sentinel",
+  "version": "5.0.0-preview.1",
+  "startFile": "index.ts",
+  "supportedVersions": [
+    "OTv4.1.x"
+  ],
+  "enabled": true,
+  "priority": 0,
+  "events": [],
+  "npmDependencies": [],
+  "requiredPlugins": [],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "Alertas de segurança sem punições automáticas",
+    "longDescription": "Alertas de segurança sem punições automáticas",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": [
+      "hezzuz"
+    ]
+  }
+}

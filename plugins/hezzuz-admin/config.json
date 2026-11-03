@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "guildId": "1461167877536350402",
+  "staffRoleIds": [],
+  "linkedRoleId": "1539809449894748300",
+  "linkStoragePath": "./plugins/hezzuz-link/links.json",
+  "minecraftConfigPath": "./plugins/hezzuz-minecraft/config.json",
+  "minecraftStatePath": "./plugins/hezzuz-minecraft/data.json",
+  "maxSyncPerRun": 100
+}

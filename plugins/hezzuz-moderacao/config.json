@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "guildId": "1461167877536350402",
+  "generalLogsChannelId": "1562625308291637359",
+  "moderationLogsChannelId": "1562625344161452112",
+  "ticketLogsChannelId": "1562625375006367824",
+  "moderatorRoleIds": [],
+  "administratorRoleIds": [],
+  "trackMessageEdits": true,
+  "trackMessageDeletes": true,
+  "trackMemberRoles": true,
+  "trackJoinsAndLeaves": true,
+  "storeWarningsFile": "./plugins/hezzuz-moderacao/warnings.json",
+  "historyFile": "./plugins/hezzuz-moderacao/history.json",
+  "appealChannelId": "",
+  "progressive": {
+    "enabled": false,
+    "timeoutAtWarnings": {
+      "2": 30,
+      "3": 1440,
+      "4": 10080
+    }
+  }
+}

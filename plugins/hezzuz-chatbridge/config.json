@@ -1,0 +1,12 @@
+{
+  "enabled": false,
+  "guildId": "1461167877536350402",
+  "listenHost": "127.0.0.1",
+  "listenPort": 18767,
+  "bridgeToken": "CONFIGURE_TOKEN_DIFERENTE_COM_32_CARACTERES_OU_MAIS",
+  "channels": {"survival":"", "skyblock":"", "eventos":""},
+  "sendToMinecraft": false,
+  "receiveFromMinecraft": false,
+  "maxQueue": 200,
+  "maxMessagesPerMinute": 12
+}

@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "uuid": "3fd08975-9f40-4680-85bc-935890079449",
+      "name": "TheMachineBroken",
+      "discordId": "331428050870730753",
+      "linkedAt": 1792694558817
+    },
+    {
+      "uuid": "161e168d-af8e-48b4-9887-2acc27090703",
+      "name": "NocTurNoo",
+      "discordId": "1246876360065155104",
+      "linkedAt": 1792694626543
+    },
+    {
+      "uuid": "e9fc0e21-953b-45a8-b858-da82035a08d4",
+      "name": "Jalam_Bepaw",
+      "discordId": "1562612214349832209",
+      "linkedAt": 1792761793529
+    }
+  ],
+  "pending": [],
+  "unlinks": []
+}

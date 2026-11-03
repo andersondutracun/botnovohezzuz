@@ -1,0 +1,27 @@
+{
+  "name": "HEZZUZ Logs",
+  "id": "hezzuz-logs",
+  "version": "3.0.0",
+  "startFile": "index.ts",
+  "supportedVersions": [
+    "OTv4.1.x"
+  ],
+  "enabled": true,
+  "priority": 0,
+  "events": [],
+  "npmDependencies": [],
+  "requiredPlugins": [],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "Registros básicos de mensagens excluídas e membros",
+    "longDescription": "Registros básicos de mensagens excluídas e membros",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": [
+      "hezzuz",
+      "logs"
+    ]
+  }
+}

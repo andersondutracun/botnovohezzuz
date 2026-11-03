@@ -1,0 +1,27 @@
+{
+  "name": "HEZZUZ Admin",
+  "id": "hezzuz-admin",
+  "version": "3.1.0",
+  "startFile": "index.ts",
+  "supportedVersions": [
+    "OTv4.1.x"
+  ],
+  "enabled": true,
+  "priority": 0,
+  "events": [],
+  "npmDependencies": [],
+  "requiredPlugins": [],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "Central administrativa, diagnostico e sincronizacao de vinculos",
+    "longDescription": "Comandos de ajuda, status, diagnostico, painel e sincronizacao de cargos vinculados",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": [
+      "hezzuz",
+      "admin"
+    ]
+  }
+}

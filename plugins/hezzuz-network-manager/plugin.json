@@ -1,0 +1,26 @@
+{
+  "name": "HEZZUZ Network Manager",
+  "id": "hezzuz-network-manager",
+  "version": "5.0.0-beta.1",
+  "startFile": "index.ts",
+  "supportedVersions": [
+    "OTv4.1.x"
+  ],
+  "enabled": true,
+  "priority": 0,
+  "events": [],
+  "npmDependencies": [],
+  "requiredPlugins": [],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "Monitoramento de telemetria do Velocity",
+    "longDescription": "Somente leitura, status e alerta de stale",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": [
+      "hezzuz"
+    ]
+  }
+}

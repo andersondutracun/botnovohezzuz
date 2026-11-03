@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "guildId": "1461167877536350402",
+  "channelId": "1562901293385781278",
+  "listenHost": "127.0.0.1",
+  "listenPort": 18765,
+  "bridgeToken": "c09d12752c7e9287b3a13823b388892666c5d40f2e2588717535347e2fda50bf",
+  "refreshSeconds": 60,
+  "staleSeconds": 180,
+  "servers": [
+    {
+      "id": "survival",
+      "name": "Survival"
+    },
+    {
+      "id": "skyblock",
+      "name": "SkyBlock"
+    },
+    {
+      "id": "eventos",
+      "name": "Eventos"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "HEZZUZ Donate 2.0 — histórico e auditoria",
+  "id": "hezzuz-donate-extras",
+  "version": "1.0.0",
+  "startFile": "index.ts",
+  "supportedVersions": [
+    "OTv4.1.x"
+  ],
+  "enabled": true,
+  "priority": 3,
+  "events": [],
+  "npmDependencies": [],
+  "requiredPlugins": [
+    "hezzuz-donate"
+  ],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "HEZZUZ Donate 2.0 — histórico e auditoria",
+    "longDescription": "Módulo complementar de leitura, não altera transações nem PlayerPoints.",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": [
+      "hezzuz"
+    ]
+  }
+}

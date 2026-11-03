@@ -1,0 +1,27 @@
+{
+  "name": "HEZZUZ Autoroles",
+  "id": "hezzuz-autoroles",
+  "version": "3.0.0",
+  "startFile": "index.ts",
+  "supportedVersions": [
+    "OTv4.1.x"
+  ],
+  "enabled": true,
+  "priority": 0,
+  "events": [],
+  "npmDependencies": [],
+  "requiredPlugins": [],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "Cargos opcionais sem privilégios administrativos",
+    "longDescription": "Cargos opcionais sem privilégios administrativos",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": [
+      "hezzuz",
+      "autoroles"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "HEZZUZ Minecraft",
+  "id": "hezzuz-minecraft",
+  "version": "3.2.0",
+  "startFile": "index.ts",
+  "supportedVersions": [
+    "OTv4.1.x"
+  ],
+  "enabled": true,
+  "priority": 0,
+  "events": [],
+  "npmDependencies": [],
+  "requiredPlugins": [],
+  "incompatiblePlugins": [],
+  "details": {
+    "author": "HEZZUZ",
+    "contributors": [],
+    "shortDescription": "Status da rede via Bridge Velocity",
+    "longDescription": "Recebe telemetria autenticada do Velocity e publica um painel sem IPs",
+    "imageUrl": "",
+    "projectUrl": "",
+    "tags": [
+      "hezzuz",
+      "minecraft"
+    ]
+  }
+}
