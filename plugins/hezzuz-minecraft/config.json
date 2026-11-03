@@ -2,7 +2,7 @@
   "enabled": true,
   "guildId": "1461167877536350402",
   "channelId": "1562901293385781278",
-  "listenHost": "127.0.0.1",
+  "listenHost": "0.0.0.0",
   "listenPort": 18765,
   "bridgeToken": "SUBSTITUA_NO_VOLUME_PERSISTENTE",
   "refreshSeconds": 60,
