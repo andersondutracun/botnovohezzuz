@@ -1,160 +1,160 @@
 {
-    "_INFO": {
-        "support": "https://otdocs.dj-dj.be",
-        "discord": "https://discord.dj-dj.be",
-        "version": "open-ticket-v4.1.3"
+  "_INFO": {
+    "support": "https://otdocs.dj-dj.be",
+    "discord": "https://discord.dj-dj.be",
+    "version": "open-ticket-v4.1.3"
+  },
+  "token": "",
+  "tokenFromENV": true,
+  "mainColor": "#f8ba00",
+  "language": "portuguese",
+  "prefix": "!ticket ",
+  "serverId": "1461167877536350402",
+  "globalAdmins": [
+    "1489950595778482326"
+  ],
+  "slashCommands": true,
+  "textCommands": true,
+  "status": {
+    "enabled": true,
+    "type": "playing",
+    "mode": "online",
+    "text": "/help",
+    "state": "Hezzuz.com"
+  },
+  "system": {
+    "preferSlashOverText": true,
+    "sendErrorOnUnknownCommand": true,
+    "questionFieldsInCodeBlock": true,
+    "displayFieldsWithQuestions": false,
+    "showGlobalAdminsInPanelRoles": false,
+    "disableVerifyBars": false,
+    "useRedErrorEmbeds": true,
+    "alwaysShowReason": false,
+    "emojiStyle": "before",
+    "pinEmoji": "📌",
+    "replyOnTicketCreation": true,
+    "replyOnReactionRole": true,
+    "askPriorityOnTicketCreation": false,
+    "removeParticipantsOnClose": false,
+    "disableAutocloseAfterReopen": true,
+    "autodeleteRequiresClosedTicket": true,
+    "adminOnlyDeleteWithoutTranscript": true,
+    "allowCloseBeforeMessage": false,
+    "allowCloseBeforeAdminMessage": true,
+    "useTranslatedConfigChecker": true,
+    "pinFirstTicketMessage": false,
+    "enableTicketClaimButtons": true,
+    "enableTicketCloseButtons": true,
+    "enableTicketPinButtons": true,
+    "enableTicketDeleteButtons": true,
+    "enableTicketActionWithReason": true,
+    "enableDeleteWithoutTranscript": true,
+    "logs": {
+      "enabled": true,
+      "channel": "1461510151193497690"
     },
-    "token": "",
-    "tokenFromENV": true,
-    "mainColor": "#f8ba00",
-    "language": "portuguese",
-    "prefix": "!ticket ",
-    "serverId": "1461167877536350402",
-    "globalAdmins": [
-        "1489950595778482326"
-    ],
-    "slashCommands": true,
-    "textCommands": true,
-    "status": {
-        "enabled": true,
-        "type": "playing",
-        "mode": "online",
-        "text": "/help",
-        "state": "Hezzuz.com"
+    "limits": {
+      "enabled": true,
+      "globalMaximum": 50,
+      "userMaximum": 3
     },
-    "system": {
-        "preferSlashOverText": true,
-        "sendErrorOnUnknownCommand": true,
-        "questionFieldsInCodeBlock": true,
-        "displayFieldsWithQuestions": false,
-        "showGlobalAdminsInPanelRoles": false,
-        "disableVerifyBars": false,
-        "useRedErrorEmbeds": true,
-        "alwaysShowReason": false,
-        "emojiStyle": "before",
-        "pinEmoji": "📌",
-        "replyOnTicketCreation": true,
-        "replyOnReactionRole": true,
-        "askPriorityOnTicketCreation": false,
-        "removeParticipantsOnClose": false,
-        "disableAutocloseAfterReopen": true,
-        "autodeleteRequiresClosedTicket": true,
-        "adminOnlyDeleteWithoutTranscript": true,
-        "allowCloseBeforeMessage": false,
-        "allowCloseBeforeAdminMessage": true,
-        "useTranslatedConfigChecker": true,
-        "pinFirstTicketMessage": false,
-        "enableTicketClaimButtons": true,
-        "enableTicketCloseButtons": true,
-        "enableTicketPinButtons": true,
-        "enableTicketDeleteButtons": true,
-        "enableTicketActionWithReason": true,
-        "enableDeleteWithoutTranscript": true,
-        "logs": {
-            "enabled": true,
-            "channel": "1461510151193497690"
-        },
-        "limits": {
-            "enabled": true,
-            "globalMaximum": 50,
-            "userMaximum": 3
-        },
-        "channelTopic": {
-            "showOptionName": true,
-            "showOptionDescription": false,
-            "showOptionTopic": true,
-            "showPriority": false,
-            "showClosed": true,
-            "showClaimed": false,
-            "showPinned": false,
-            "showCreator": false,
-            "showParticipants": false
-        },
-        "permissions": {
-            "help": "everyone",
-            "panel": "admin",
-            "ticket": "none",
-            "close": "everyone",
-            "delete": "admin",
-            "reopen": "everyone",
-            "claim": "admin",
-            "unclaim": "admin",
-            "pin": "admin",
-            "unpin": "admin",
-            "move": "admin",
-            "rename": "admin",
-            "add": "admin",
-            "remove": "admin",
-            "blacklist": "admin",
-            "stats": "everyone",
-            "clear": "admin",
-            "autoclose": "admin",
-            "autodelete": "admin",
-            "transfer": "admin",
-            "topic": "admin",
-            "priority": "admin"
-        },
-        "messages": {
-            "creation": {
-                "dm": false,
-                "logs": true
-            },
-            "closing": {
-                "dm": false,
-                "logs": true
-            },
-            "deleting": {
-                "dm": false,
-                "logs": true
-            },
-            "reopening": {
-                "dm": false,
-                "logs": true
-            },
-            "claiming": {
-                "dm": false,
-                "logs": true
-            },
-            "pinning": {
-                "dm": false,
-                "logs": true
-            },
-            "adding": {
-                "dm": false,
-                "logs": true
-            },
-            "removing": {
-                "dm": false,
-                "logs": true
-            },
-            "renaming": {
-                "dm": false,
-                "logs": true
-            },
-            "moving": {
-                "dm": false,
-                "logs": true
-            },
-            "blacklisting": {
-                "dm": false,
-                "logs": true
-            },
-            "transferring": {
-                "dm": false,
-                "logs": true
-            },
-            "topicChange": {
-                "dm": false,
-                "logs": true
-            },
-            "priorityChange": {
-                "dm": false,
-                "logs": true
-            },
-            "reactionRole": {
-                "dm": false,
-                "logs": true
-            }
-        }
+    "channelTopic": {
+      "showOptionName": true,
+      "showOptionDescription": false,
+      "showOptionTopic": true,
+      "showPriority": false,
+      "showClosed": true,
+      "showClaimed": false,
+      "showPinned": false,
+      "showCreator": false,
+      "showParticipants": false
+    },
+    "permissions": {
+      "help": "everyone",
+      "panel": "admin",
+      "ticket": "none",
+      "close": "everyone",
+      "delete": "admin",
+      "reopen": "everyone",
+      "claim": "admin",
+      "unclaim": "admin",
+      "pin": "admin",
+      "unpin": "admin",
+      "move": "admin",
+      "rename": "admin",
+      "add": "admin",
+      "remove": "admin",
+      "blacklist": "admin",
+      "stats": "everyone",
+      "clear": "admin",
+      "autoclose": "admin",
+      "autodelete": "admin",
+      "transfer": "admin",
+      "topic": "admin",
+      "priority": "admin"
+    },
+    "messages": {
+      "creation": {
+        "dm": false,
+        "logs": true
+      },
+      "closing": {
+        "dm": false,
+        "logs": true
+      },
+      "deleting": {
+        "dm": false,
+        "logs": true
+      },
+      "reopening": {
+        "dm": false,
+        "logs": true
+      },
+      "claiming": {
+        "dm": false,
+        "logs": true
+      },
+      "pinning": {
+        "dm": false,
+        "logs": true
+      },
+      "adding": {
+        "dm": false,
+        "logs": true
+      },
+      "removing": {
+        "dm": false,
+        "logs": true
+      },
+      "renaming": {
+        "dm": false,
+        "logs": true
+      },
+      "moving": {
+        "dm": false,
+        "logs": true
+      },
+      "blacklisting": {
+        "dm": false,
+        "logs": true
+      },
+      "transferring": {
+        "dm": false,
+        "logs": true
+      },
+      "topicChange": {
+        "dm": false,
+        "logs": true
+      },
+      "priorityChange": {
+        "dm": false,
+        "logs": true
+      },
+      "reactionRole": {
+        "dm": false,
+        "logs": true
+      }
     }
+  }
 }

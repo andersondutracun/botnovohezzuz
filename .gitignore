@@ -4,7 +4,6 @@ package-lock.json
 
 devconfig/
 devdatabase/
-!plugins/example-plugin/
 database/openticket.sqlite
 dist/
 
@@ -34,3 +33,16 @@ plugins/hezzuz-ai-support/config.json
 # Dados persistentes
 plugins/hezzuz-donate/orders.json
 plugins/hezzuz-economy-games/economy.json
+
+# HEZZUZ Coolify - local runtime data (not versioned)
+database/*.json
+plugins/**/data.json
+plugins/**/orders.json
+plugins/**/economy.json
+plugins/**/history.json
+plugins/**/warnings.json
+plugins/**/links.json
+plugins/**/panel-state.json
+plugins/**/mp-sandbox-orders.json
+config/*.bak
+plugins/*.zip

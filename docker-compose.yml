@@ -1,11 +1,22 @@
-# Docker Compose for Open Ticket v4
-version: '3'
 services:
   openticket:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      TOKEN: ${TOKEN:?Defina TOKEN em Environment Variables no Coolify}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      HEZZUZ_DONATE_BRIDGE_TOKEN: ${HEZZUZ_DONATE_BRIDGE_TOKEN:-}
+      MP_ACCESS_TOKEN: ${MP_ACCESS_TOKEN:-}
+      MP_WEBHOOK_SECRET: ${MP_WEBHOOK_SECRET:-}
+      MP_TEST_ACCESS_TOKEN: ${MP_TEST_ACCESS_TOKEN:-}
+      MP_TEST_WEBHOOK_SECRET: ${MP_TEST_WEBHOOK_SECRET:-}
     volumes:
-      - openticket:/home/container
-    restart: no
-    container_name: open-ticket
+      - hezzuz_data:/data
+    healthcheck:
+      disable: true
 volumes:
-  openticket:
+  hezzuz_data:
