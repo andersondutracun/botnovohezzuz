@@ -38,3 +38,21 @@ node -e "console.log('TOKEN presente:', !!process.env.TOKEN)"
 ```
 
 Evite revelar tokens em logs, screenshots ou no repositório.
+
+
+## Tokens das bridges HEZZUZ
+
+No Coolify > Environment Variables, configure as secrets (somente runtime):
+
+```dotenv
+HEZZUZ_BRIDGE_TOKEN=token_longo_da_bridge_minecraft
+HEZZUZ_CHATBRIDGE_TOKEN=token_longo_da_bridge_de_chat
+HEZZUZ_DONATE_BRIDGE_TOKEN=token_da_bridge_doacoes
+```
+
+- `HEZZUZ_BRIDGE_TOKEN`: usado por `hezzuz-minecraft`, enviado no cabeçalho `x-hezzuz-token` pelo conector do Velocity/Minecraft; deve coincidir com o token do lado Minecraft.
+- `HEZZUZ_CHATBRIDGE_TOKEN`: usado por `hezzuz-chatbridge`, se habilitado; deve coincidir com o token do conector Java.
+- `HEZZUZ_DONATE_BRIDGE_TOKEN`: usado pela integração de doações (já previsto anteriormente).
+- Não use o token do bot Discord (`TOKEN`) como token de bridge.
+- Reinicie/reimplante após alterar variáveis.
+- **Conectividade:** os plugins HTTP escutam, por padrão, em `127.0.0.1` dentro do contêiner. O Minecraft hospedado fora desse contêiner não alcança esses endpoints até configurar `listenHost`, portas e uma rede segura (preferencialmente uma rede interna/VPN). Não exponha uma porta sem autenticação e restrição de acesso.

@@ -10,6 +10,7 @@ const clean=(s:string,n:number)=>s.replace(/[\x00-\x1F\x7F]/g,' ').replace(/@eve
 opendiscord.events.get('onConfigLoad').listen(m=>{m.add(new api.ODJsonConfig('hezzuz-chatbridge:config','config.json',root))})
 opendiscord.events.get('afterClientReady').listen(async()=>{
  const cfg=opendiscord.configs.get('hezzuz-chatbridge:config')?.data as Cfg|undefined;if(!cfg?.enabled)return
+ cfg.bridgeToken=process.env.HEZZUZ_CHATBRIDGE_TOKEN?.trim() || cfg.bridgeToken
  const guild=await opendiscord.client.client.guilds.fetch(cfg.guildId).catch(()=>null);if(!guild)return
  if(!cfg.bridgeToken||cfg.bridgeToken.length<32){console.warn('[ChatBridge] Token com menos de 32 caracteres; módulo inativo.');return}
  const chanEntries=Object.entries(cfg.channels||{}).filter(([name,id])=>/^[a-z0-9_-]{2,24}$/i.test(name)&&/^\d{17,20}$/.test(id))

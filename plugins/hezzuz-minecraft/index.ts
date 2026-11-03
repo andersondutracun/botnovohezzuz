@@ -18,6 +18,8 @@ opendiscord.events.get('onConfigLoad').listen(manager=>{manager.add(new api.ODJs
 opendiscord.events.get('afterClientReady').listen(async()=>{
  const cfg=opendiscord.configs.get('hezzuz-minecraft:config')?.data as Config|undefined
  if(!cfg?.enabled)return
+ // Prefer a secret supplied by Coolify; keep JSON fallback for local installations.
+ cfg.bridgeToken=process.env.HEZZUZ_BRIDGE_TOKEN?.trim() || cfg.bridgeToken
  if(!cfg.bridgeToken||cfg.bridgeToken.startsWith('SUBSTITUA_')||!cfg.channelId||cfg.channelId.startsWith('COLOQUE_')){opendiscord.log('Minecraft Bridge: preencha token e channelId no config.json','warning');return}
  const guild=await opendiscord.client.client.guilds.fetch(cfg.guildId).catch(()=>null)
  if(!guild){opendiscord.log('Minecraft Bridge: servidor Discord não encontrado','warning');return}
